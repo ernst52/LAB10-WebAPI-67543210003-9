@@ -4,7 +4,7 @@ header("Content-Type: application/json");
 // DB connection
 $host = "localhost";
 $user = "root";
-$pass = ""; // XAMPP default
+$pass = ""; 
 $db   = "caving_gear";
 
 // Create connection

@@ -7,6 +7,7 @@ $user = "root";
 $pass = ""; // XAMPP default
 $db   = "caving_gear";
 
+// Create connection
 $conn = new mysqli($host, $user, $pass, $db);
 if ($conn->connect_error) {
     die(json_encode(["error" => "DB connection failed"]));
